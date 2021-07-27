@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Raleway:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+header{
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    padding:25px;
+}
+
+section.banner{
+    background-image: url("../images/fundo1.png");
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.row{
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.apresentacao-mid{
+    text-align: right;
+    color:#ffffff;
+    margin-top: 300px;
+}
+
+.apresentacao-mid h1{
+   position: relative;
+   margin-bottom:30px;
+   padding-bottom:30px;
+   font-size: 63px;
+   color: #ffffff;
+   font-weight: 600;
+   font-family: "Raleway";
+   text-transform: uppercase;
+}
+
+.apresentacao-mid h1:before{
+    content:'';
+    border-bottom:solid 7px #ffffff;
+    position: absolute;
+    right:0;
+    bottom:0;
+    width: 25%;
+}
+
+.apresentacao-mid a{
+    font-size: 25px;
+    color: #100667;
+    font-weight: 500;
+    font-family: "Raleway";
+    text-align: right;
+    border-radius: 0px;
+    text-transform: lowercase;
+    background-color:#ffffffc7;
+    padding: 5px 50px;
+}
+
+.apresentacaotxt{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Raleway";
+    text-align: right;
+}
+
+.about{
+    background-color: #000000;
+    padding: 50px 200px;
+}
+
+.about h2{
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding: 25px;
+}
+
+.abouttxt{
+    font-size: 19px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.services{
+    background-color:#d41ae3;
+    padding: 75px;
+}
+
+.services .col-md-4{
+    padding-left:60px;
+}
+
+.services i{
+    margin-bottom:15px;
+    margin-right: 10px;
+}
+
+.services h3{
+    font-size: 19px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    margin-bottom: 30px;
+}
+
+.servicestxt{
+    font-size: 17px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
+.company{
+    background-color: #000000;
+    padding: 65px 0;
+}
+
+.company h2{
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.companytxt{
+    margin-bottom: 95px;
+    font-size: 19px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.boxcompany{
+    background-color:#d41ae3;
+    padding:60px;
+}
+
+.boxcompany h3{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.companytxt2{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+    margin-bottom: 30px;
+}
+
+.companytxt3{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.companytxt4{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-transform: lowercase;
+    margin-bottom: 0;
+}
+
+.boxcompany .d-flex{
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wedo{
+    background-color: black;
+    padding: 50px 200px;
+}
+
+.wedo h2{
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.wedotxt{
+    
+    font-size: 19px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+ul.wedolist{
+    padding-left: 0;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    list-style: none;
+    justify-content: center;
+    display: flex;
+}
+
+.wedolist li{
+    margin: 0 30px;
+}
+
+.wedo .border{
+    width: 150px;
+    border: 5px solid #ffffff !important;
+    background-color: #ffffff;
+    margin: 30px auto;
+}
+
+.quote{
+    background-color: #000000;
+    padding: 50px 200px;
+}
+
+.quotetxt{
+    font-size: 19px;
+    line-height: 33px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.quote h3{
+    font-size: 19px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.quote .border{
+    width: 150px;
+    border: 5px solid #ffffff !important;
+    background-color: #ffffff;
+    margin: 30px auto;
+}
+
+.numbers{
+    background-image: url("../images/fundo5.png");
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.numberstxt{
+    font-size: 29px;
+    color: #fefefe;
+    font-weight: 600;
+    font-family: "Raleway";
+    margin-bottom: 100px;
+}
+
+.numberstxt1{
+    width: 135px;
+    height: 34px;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
+.numberstxt2{
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Raleway";
+}
+
+.numberstxt3{
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Raleway";
+    text-transform: uppercase;
+}
+
+.projects{
+    background-color: #000000;
+    padding: 70px;
+}
+
+.projectstxt1{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align: center;
+    margin-top: 80px;
+}
+
+.projectstxt2{
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projectstxt3{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+
+
