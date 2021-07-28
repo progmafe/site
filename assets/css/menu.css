@@ -157,4 +157,10 @@
     font-family: "Raleway" !important
  }
 
+ @media screen and (max-width: 600px) {
+  .linkhome {
+    display: none;
+  }
+}
+
  

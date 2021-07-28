@@ -191,7 +191,7 @@ section.banner{
 }
 
 .wedo{
-    background-color: black;
+    background-color: #000000;
     padding: 50px 200px;
 }
 
@@ -397,7 +397,7 @@ ul.wedolist{
 }
 
 .sociallist i{
-    color:gray;
+    color:#ffffffc7;
 }
 
 .footer{
@@ -432,3 +432,111 @@ ul.wedolist{
     font-weight: 400;
     font-family: "Raleway";
 }
+
+@media screen and (max-width: 767px) {
+    section.banner{
+        padding: 50px 15px;
+    }
+    section.banner .img-fluid{
+        margin-top: 100px;
+    }
+    section.banner .apresentacao-mid h1{
+        text-align: center;
+    }  
+    section.banner .apresentacaotxt{
+        text-align: center;
+    }
+    section.banner .apresentação-mid a{
+        align-items: center;
+    }
+
+    .about{
+        padding: 50px 15px;
+    }
+
+    .services{
+        padding: 50px 15px;
+    }
+    .services h3{
+        text-align: center;
+    }
+    .servicestxt{
+        text-align: center;
+    }
+    .services .col-md-4{
+        padding-left: 0;
+    }
+
+    .company{
+        padding: 50px 15px;
+    }
+    .company .boxcompany{
+        padding: 25px 50px;
+        margin: 10px;
+    }
+    .company .boxcompany h3{
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .company .companytxt{
+        margin-bottom:0;
+    }
+    .company .companytxt2{
+        text-align: center;
+    }
+    .company .companytxt3{
+        text-align: center;
+    }
+
+    .wedo{
+        padding: 50px 15px;
+    }
+
+    .quote{
+        padding: 50px 15px;
+    }
+
+    .numbers{
+        padding: 50px 15px;
+    }
+    .numbers .justify-content-evenly {
+        display: grid !important;
+        text-align: center;
+    }
+    .numberstxt{
+        margin-bottom: 50px;
+    }
+
+    .projects{
+        padding: 0px 15px;
+    }
+    
+    .trips{
+        padding: 50px 15px;
+    }
+
+    .quote2{
+        padding: 50px 15px;
+    }
+
+    .footer{
+        padding: 50px 15px;
+    }
+    .footer h3{
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .footertxt{
+        text-align: center;
+    }
+   .footerlist{
+       text-align: center;
+       font-weight: lighter;
+   }
+   
+    ul.wedolist{
+        display: grid;
+    }
+
+}
+
