@@ -443,6 +443,20 @@ ul.wedolist{
     section.banner .apresentacao-mid h1{
         text-align: center;
     }  
+    .apresentacao-mid h1:before{
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: revert;
+    }
+    .apresentação-mid{
+        margin-top: 100px;
+    }
+    .apresentacao-mid a{
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        width: 75%;
+    }
     section.banner .apresentacaotxt{
         text-align: center;
     }
@@ -458,6 +472,9 @@ ul.wedolist{
         padding: 50px 15px;
     }
     .services h3{
+        text-align: center;
+    }
+    .services h4{
         text-align: center;
     }
     .servicestxt{
@@ -507,10 +524,19 @@ ul.wedolist{
         margin-bottom: 50px;
     }
 
-    .projects{
-        padding: 0px 15px;
+    .projects{    
+        padding: 0px 15px 60px;
     }
-    
+    .projects .order-mobile-2{
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+    .projects img{
+        margin: 0 auto;
+        display: block;
+    }
+
     .trips{
         padding: 50px 15px;
     }
