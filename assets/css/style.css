@@ -334,5 +334,101 @@ ul.wedolist{
     text-align: center;
 }
 
+.trips{
+    background-color: #d41ae3;
+    padding: 70px 0;
+}
 
+.trips h3{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
 
+.tripstxt{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    margin-bottom: 0;
+}
+
+.trips .border-left{
+    border-left: solid 5px #ffffff;
+    padding-left: 20px;
+}
+
+.quote2{
+    background-color: #000000;
+    padding: 50px 200px;
+}
+
+.quote2 h3{
+    font-size: 19px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.quotetxt2{
+    font-size: 19px;
+    line-height: 33px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.sociallist{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left:0;
+    margin-top: 25px;
+}
+
+.sociallist li{
+    margin: 0 15px;
+}
+
+.sociallist i{
+    color:gray;
+}
+
+.footer{
+    background-color: #d41ae3;
+    padding: 70px 0;
+}
+
+.footerlist{
+    list-style: none;
+    font-size: 21px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding-left: 0;
+}
+
+.footer h3{
+    font-size: 21px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.footertxt{
+    font-size: 19px;
+    line-height: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+}
